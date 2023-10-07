@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mezaff LinkTree</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/trpaico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <div class="nav">
+        <h1 class="judul">Mezaff_Link</h1>
+        <div class="share-button">
+          <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </header> -->
+
+    <!-- Home -->
+
+    <div class="container">
+      <div class="image-container">
+        <img src="img/logo.jpg" alt="" />
+      </div>
+      <h1 class="judul-akun">@_mezaff</h1>
+
+      <nav>
+        <img src="img/moon.png" id="icon1" />
+      </nav>
+
+      <!-- Link Social -->
+
+      <div class="konten">
+        <div class="isi">
+          <a href="https://www.instagram.com/_mezaff"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/mezaff"><i class="fab fa-github"></i></a>
+          <a href="https://www.threads.net/_mezaff"><i class="fa-brands fa-threads"></i></a>
+          <a href="https://www.youtube.com/@_mezaff"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-product-hunt"></i></a>
+          <a href="https://mezaff.github.io/mezaff-device/"><i class="fa-solid fa-laptop"></i></a>
+        </div>
+      </div>
+
+      <!-- Isi Kotak Social Media -->
+      <div class="box-flex">
+        <div class="social-box">
+          <a target="_blank" href="https://www.instagram.com/_mezaff">
+            <i class="fab fa-instagram"></i>
+            <p>Instagram</p>
+          </a>
+        </div>
+
+        <div class="social-box">
+          <a target="_blank" href="https://github.com/mezaff">
+            <i class="fab fa-github"></i>
+            <p>GitHub</p>
+          </a>
+        </div>
+
+        <div class="social-box">
+          <a target="_blank" href="https://www.threads.net/_mezaff">
+            <i class="fa-brands fa-threads"></i>
+            <p>Threads</p>
+          </a>
+        </div>
+
+        <div class="social-box">
+          <a target="_blank" href="https://www.youtube.com/@_mezaff">
+            <i class="fab fa-youtube"></i>
+            <p>YouTube</p>
+          </a>
+        </div>
+
+
+        <div class="social-box">
+          <a target="_blank" href="#">
+            <i class="fab fa-product-hunt"></i>
+            <p>Portofolio - Coming Soon</p>
+          </a>
+        </div>
+
+        <div class="social-box">
+          <a target="_blank" href="https://mezaff.github.io/mezaff-device/">
+            <i class="fa-solid fa-laptop"></i>
+            <p>My Device</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <h1 class="yout">My Inspirator</h1>
+      
+    </div>
+
+    <footer>
+      <p>&copy; Created By Mezaff 2023</p>
+      <p>Version 2.5</p>
+    </footer>
+
+    <script>
+      // Saat Di scroll
+      window.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        if (window.scrollY > 200) {
+          // Atur nilai berapa pixel header akan muncul
+          header.style.top = '0';
+        } else {
+          header.style.top = '-300px';
+        }
+      });
+    </script>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/4b2f8bfc61.js" crossorigin="anonymous"></script>
+  </body>
+</html>
